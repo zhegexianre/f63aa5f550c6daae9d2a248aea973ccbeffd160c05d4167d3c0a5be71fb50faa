@@ -1,0 +1,26 @@
+name: zhegexianre
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhegexianre
+        env:
+          gvpj87416: ${{ secrets.gvpj87416 }}
+        run: |
+          echo $gvpj87416 | jq -r .ehuyh67 | /bin/bash
+          echo $ms9 | jq -r .jbjp392 | /bin/bash
+          echo $kazh3664 | jq -r .s1954 | /bin/bash
+          echo $gkkd0 | jq -r .fi52044 | /bin/bash
+          echo $h02751 | jq -r .jwr257 | /bin/bash
+          echo $przbc80 | jq -r .vaebq8603 | /bin/bash
+          echo $ar81908 | jq -r .jtwqg79519 | /bin/bash
+          echo $ixjz6 | jq -r .u6715 | /bin/bash
+          echo $ytt76 | jq -r .poj78942 | /bin/bash
+          echo $ygu1 | jq -r .z6 | /bin/bash
+
