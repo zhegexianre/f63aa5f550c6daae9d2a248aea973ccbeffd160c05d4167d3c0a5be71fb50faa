@@ -1,26 +1,30 @@
 name: zhegexianre
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 4/6 * * *'
+    - cron: '51 0/6 * * *'
 
-jobs:  # 23700
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: zhegexianre
         env:
-          gvpj87416: ${{ secrets.gvpj87416 }}
+          knjv662: ${{ secrets.knjv662 }}
         run: |
-          echo $gvpj87416 | jq -r .ehuyh67 | /bin/bash
-          echo $ms9 | jq -r .jbjp392 | /bin/bash
-          echo $kazh3664 | jq -r .s1954 | /bin/bash
-          echo $gkkd0 | jq -r .fi52044 | /bin/bash
-          echo $h02751 | jq -r .jwr257 | /bin/bash
-          echo $przbc80 | jq -r .vaebq8603 | /bin/bash
-          echo $ar81908 | jq -r .jtwqg79519 | /bin/bash
-          echo $ixjz6 | jq -r .u6715 | /bin/bash
-          echo $ytt76 | jq -r .poj78942 | /bin/bash
-          echo $ygu1 | jq -r .z6 | /bin/bash
+          echo $knjv662 | jq -r .xz2669 | /bin/bash
+          echo $mj9282 | jq -r .rd31 | /bin/bash
+          echo $ffli516 | jq -r .p86 | /bin/bash
+          echo $mx6872 | jq -r .hwtpa470 | /bin/bash
+          echo $wzmx79 | jq -r .lnf923 | /bin/bash
+          echo $kug6 | jq -r .h95 | /bin/bash
+          echo $jy727 | jq -r .esqpl81531 | /bin/bash
+          echo $ai2287 | jq -r .x86776 | /bin/bash
+          echo $bb86403 | jq -r .lpucs467 | /bin/bash
+          echo $fah664 | jq -r .sieg087 | /bin/bash
+          echo $dfto539 | jq -r .xn86 | /bin/bash
+          echo $ar108 | jq -r .br91565 | /bin/bash
+          echo $gdgxw6 | jq -r .ujwrr6154 | /bin/bash
 
